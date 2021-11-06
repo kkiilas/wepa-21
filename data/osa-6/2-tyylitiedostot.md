@@ -7,7 +7,7 @@ hidden: false
 <text-box variant='learningObjectives' name='Oppimistavoitteet'>
 
 - Tiedät mitä tyylitiedostot ovat ja tiedät mikä Twitter Bootstrap on.
-- Osaat tuota Twitter Bootstrapin omaan sovellukseesi.
+- Osaat tuoda Twitter Bootstrapin omaan sovellukseesi.
 - Osaat määritellä Twitter Bootstrapia käyttäen sovellukseesi alueita ja ruudukkoja.
 - Osaat tyylitellä sovelluksessasi olevia elementtejä (napit, taulukot, lomake-elementit) Twitter Bootstrapia käyttäen.
 
@@ -16,7 +16,7 @@ hidden: false
 
 Olet ehkäpä huomannut, että web-sovelluksemme eivät ole kovin kaunista katsottavaa. Kurssilla pääpaino on palvelinpään toiminnallisuuden toteuttamisessa, joten sivujen tyylin määrittely on ollut käytännössä täysin paitsiossa. Korjataan tilannetta hieman.
 
-Siinä missä HTML määrittelee sivun rakenteen ja sisällön, sivun asettelu ja tyyli määritellään Cascading Style Sheets (CSS)-tiedostoilla. Verkosta löytyy iso kasa CSS-oppaita -- esimerkiksi osoitteessa [https://www.w3schools.com/css/](https://www.w3schools.com/css/) oleva opas on hyvä lähtökohta tyylien määrittelyssä käytetyn CSS-kielen tarkasteluun.
+Siinä, missä HTML määrittelee sivun rakenteen ja sisällön, sivun asettelu ja tyyli määritellään Cascading Style Sheets (CSS)-tiedostoilla. Verkosta löytyy iso kasa CSS-oppaita -- esimerkiksi osoitteessa [https://www.w3schools.com/css/](https://www.w3schools.com/css/) oleva opas on hyvä lähtökohta tyylien määrittelyssä käytetyn CSS-kielen tarkasteluun.
 
 Tällä kurssilla lähestymme tyylien määrittelyä hieman pragmaattisemmin ja jätämme CSS-kielen opiskelun käytännössä kokonaan väliin. Tutustumme sen sijaan lyhyesti suositun [Twitter Bootstrap](https://getbootstrap.com/) -kirjaston käyttöön.
 
@@ -36,7 +36,7 @@ Bootstrapin tyylitiedoston lisäksi `head`-elementin sisälle lisätään pieni 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 ```
 
-Olemme juuri oppineet käyttämään fragmentteja, joten Twitter Bootstrapin käyttöönotto fragmenttien kautta on luontevaa. Seuraava fragmentti sisältää kummatkin edellä olevat askeleet sekä parameterisoidun otsikon.
+Olemme juuri oppineet käyttämään fragmentteja, joten Twitter Bootstrapin käyttöönotto fragmenttien kautta on luontevaa. Seuraava fragmentti sisältää kummatkin edellä olevat askeleet sekä parametrisoidun otsikon.
 
 ```html
 <!DOCTYPE html>
@@ -154,7 +154,7 @@ Tehtävässä ei ole automaattisia testejä. Palauta tehtävä kun olet muokannu
 
 ## Käyttöliittymäelementtien tyylittely
 
-Bootstrap tarjoaa valmiit tyylit lähes kaikkiin käyttöliittymäelementteihin. Taulu `table` tyylitellään tyyliluokalla `table`, lomake-elementit (esim `input`) tyyliluokalla `form-control`, ja napit tyyliluokalla `btn` sekä siihen liittyvillä lisätyyleillä kuten ensisijaista nappia kuvaavalla tyylillä `btn-primary`.
+Bootstrap tarjoaa valmiit tyylit lähes kaikkiin käyttöliittymäelementteihin. Taulu `table` tyylitellään tyyliluokalla `table`, lomake-elementit (esim. `input`) tyyliluokalla `form-control`, ja napit tyyliluokalla `btn` sekä siihen liittyvillä lisätyyleillä kuten ensisijaista nappia kuvaavalla tyylillä `btn-primary`.
 
 Alla kuvattuna esimerkki näiden yhteiskäytöstä.
 
